@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Nova+Square&family=Poppins:wght@100;300;400;500;600;700;800;900&family=Smooch&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    display: grid;
+    margin: 300px;
+    text-align: center;
+    background: url('bc.jpg'), no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    position: relative;
+    display: grid;
+    font-size: 50px;
+    top: -244px;
+    right: 0;
+    left: -440px;
+    color: orange;
+    font-family: 'Smooch', cursive;
+}
+
+.cell{
+    position: static;
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 80px;
+    font-size: 90px;
+    cursor: pointer;
+}
+
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+
+h2{
+    color: red;
+}
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    height: 224px;
+    margin: auto;
+    color: rgb(50, 16, 85);
+}
+
+#restartBtn{
+    font-size: 25px;
+    color: rgb(53, 2, 53);
+    background: transparent;
+}
